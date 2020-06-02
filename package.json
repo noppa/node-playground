@@ -1,0 +1,11 @@
+{
+  "name": "node-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3"
+  },
+  "private": true
+}
