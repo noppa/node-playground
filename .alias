@@ -1,0 +1,4 @@
+# This script location
+noderepl_projectdir=${0:a:h}
+
+alias noderepl="(cd $noderepl_projectdir; node -r ./init.js)"
