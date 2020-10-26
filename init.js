@@ -1,5 +1,5 @@
-const Moment = require('moment');
 const {extendMoment} = require('moment-range'); 
+const Moment = require('moment-timezone')
 globalThis.moment = extendMoment(Moment)
 
 globalThis.lodash = require('lodash');
